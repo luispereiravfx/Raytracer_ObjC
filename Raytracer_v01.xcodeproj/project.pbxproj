@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3BB6571409777C00C79917 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA3BB6561409777C00C79917 /* main.cpp */; };
+		BA3BB6591409777C00C79917 /* Raytracer_v01.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA3BB6581409777C00C79917 /* Raytracer_v01.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA3BB6501409777C00C79917 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BA3BB6591409777C00C79917 /* Raytracer_v01.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA3BB6521409777C00C79917 /* Raytracer_v01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Raytracer_v01; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3BB6561409777C00C79917 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA3BB6581409777C00C79917 /* Raytracer_v01.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Raytracer_v01.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3BB64F1409777C00C79917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3BB6471409777C00C79917 = {
+			isa = PBXGroup;
+			children = (
+				BA3BB6551409777C00C79917 /* Raytracer_v01 */,
+				BA3BB6531409777C00C79917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3BB6531409777C00C79917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3BB6521409777C00C79917 /* Raytracer_v01 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3BB6551409777C00C79917 /* Raytracer_v01 */ = {
+			isa = PBXGroup;
+			children = (
+				BA3BB6561409777C00C79917 /* main.cpp */,
+				BA3BB6581409777C00C79917 /* Raytracer_v01.1 */,
+			);
+			path = Raytracer_v01;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3BB6511409777C00C79917 /* Raytracer_v01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3BB65C1409777C00C79917 /* Build configuration list for PBXNativeTarget "Raytracer_v01" */;
+			buildPhases = (
+				BA3BB64E1409777C00C79917 /* Sources */,
+				BA3BB64F1409777C00C79917 /* Frameworks */,
+				BA3BB6501409777C00C79917 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raytracer_v01;
+			productName = Raytracer_v01;
+			productReference = BA3BB6521409777C00C79917 /* Raytracer_v01 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3BB6491409777C00C79917 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BA3BB64C1409777C00C79917 /* Build configuration list for PBXProject "Raytracer_v01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA3BB6471409777C00C79917;
+			productRefGroup = BA3BB6531409777C00C79917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3BB6511409777C00C79917 /* Raytracer_v01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3BB64E1409777C00C79917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3BB6571409777C00C79917 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA3BB65A1409777C00C79917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA3BB65B1409777C00C79917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA3BB65D1409777C00C79917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA3BB65E1409777C00C79917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3BB64C1409777C00C79917 /* Build configuration list for PBXProject "Raytracer_v01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3BB65A1409777C00C79917 /* Debug */,
+				BA3BB65B1409777C00C79917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3BB65C1409777C00C79917 /* Build configuration list for PBXNativeTarget "Raytracer_v01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3BB65D1409777C00C79917 /* Debug */,
+				BA3BB65E1409777C00C79917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA3BB6491409777C00C79917 /* Project object */;
+}
