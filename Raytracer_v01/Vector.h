@@ -103,22 +103,22 @@ namespace koios
         Vector operator+ (const Vector& c_vec) const;
         
         /// \brief OPERATOR: Increment of a Vector
-        /// \param The Vector to increment by
+        /// \param c_vec The Vector to increment by
         /// \return REFERENCE: Vector += Vector
         Vector& operator+= (const Vector& c_vec);
         
         /// \brief OPERATOR: Subtraction of a Vector
-        /// \param The Vector to subtract
+        /// \param c_vec The Vector to subtract
         /// \return Vector = Vector - Vector
         Vector operator- (const Vector& c_vec) const;
         
         /// \brief OPERATOR: Dot Product
-        /// \param The Vector to perform Dot Product with
+        /// \param c_vec The Vector to perform Dot Product with
         /// \return real = Vector * Vector
         real operator* (const Vector& c_vec) const;
         
         /// \brief OPERATOR: Cross Product
-        /// \param The Vector to find the Cross Product
+        /// \param c_vec The Vector to find the Cross Product
         /// \return Vector = Vector ^ Vector
         Vector operator^ (const Vector& c_vec) const;
         
@@ -181,7 +181,7 @@ namespace koios
     
     // ----------------------------------------------------------------------------
     /// \brief OPERATOR: Subtraction of a Vector
-    /// \param The Vector to subtract
+    /// \param c_vec The Vector to subtract
     /// \return Vector = Vector - Vector
     inline Vector Vector::operator- (const Vector& c_vec) const
     {
@@ -190,7 +190,7 @@ namespace koios
     
     // ----------------------------------------------------------------------------
     /// \brief OPERATOR: Dot Product
-    /// \param The Vector to perform Dot Product with
+    /// \param c_vec The Vector to perform Dot Product with
     /// \return real = Vector * Vector
     inline real Vector::operator* (const Vector& c_vec) const
     {
@@ -199,7 +199,7 @@ namespace koios
     
     // ----------------------------------------------------------------------------
     /// \brief OPERATOR: Cross Product
-    /// \param The Vector to find the Cross Product
+    /// \param c_vec The Vector to find the Cross Product
     /// \return Vector = Vector ^ Vector
     inline Vector Vector::operator^ (const Vector& c_vec) const
     {
@@ -221,6 +221,7 @@ namespace koios
     // ----------------------------------------------------------------------------
     /// \brief OPERATOR: Multiplication by a real - on the left side
     /// \param c_value The real to multiply by the Vector
+    /// \param c_vec The Vector to be multiplied by the real
     /// \return Vector = Vector ^ Vector
     Vector operator* (const real c_value, Vector& c_vec);
     

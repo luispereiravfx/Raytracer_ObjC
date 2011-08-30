@@ -94,7 +94,7 @@ namespace koios
     
     // ----------------------------------------------------------------------------
     /// \brief OPERATOR: Increment of a Vector
-    /// \param The Vector to increment by
+    /// \param c_vec The Vector to increment by
     /// \return REFERENCE: Vector += Vector
     Vector& Vector::operator+= (const Vector& c_vec)
     {

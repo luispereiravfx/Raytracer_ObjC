@@ -48,7 +48,7 @@ namespace koios
         Point(const real c_value); 
                                                      
         /// \brief Default copy constructor
-        /// \param c_vec the Vector to copy
+        /// \param c_pt the Vector to copy
         Point(const Point& c_pt);
         
         /// \brief Destructor
@@ -66,7 +66,7 @@ namespace koios
         Point operator- () const;
         
         /// \brief OPERATOR: Subtraction of a Point
-        /// \param The Point to subtract
+        /// \param c_pt The Point to subtract
         /// \return Point = Point - Point
         Vector operator- (const Point& c_pt) const;
         
@@ -76,7 +76,7 @@ namespace koios
         Point operator+ (const Vector& c_vec) const;
         
         /// \brief OPERATOR: Subtraction of a Point
-        /// \param The Vector to subtract
+        /// \param c_vec The Vector to subtract
         /// \return Point = Point - Vector
         Point operator- (const Vector& c_vec) const;
         
@@ -111,7 +111,7 @@ namespace koios
     
     // ----------------------------------------------------------------------------
     /// \brief OPERATOR: Subtraction of a Point
-    /// \param The Point to subtract
+    /// \param c_pt The Point to subtract
     /// \return Point = Point - Point
     inline Vector Point::operator-(const Point& c_pt) const
     {
@@ -129,7 +129,7 @@ namespace koios
     
     // ----------------------------------------------------------------------------
     /// \brief OPERATOR: Subtraction of a Point
-    /// \param The Vector to subtract
+    /// \param c_vec The Vector to subtract
     /// \return Point = Point - Vector
     inline Point Point::operator-(const Vector &c_vec) const
     {
@@ -162,6 +162,7 @@ namespace koios
     // ----------------------------------------------------------------------------
     /// \brief OPERATOR: Multiplication by a real - on the left side
     /// \param c_value The real to multiply by the Point
+    /// \param c_pt The Point to be multiplied by the real
     /// \return Point = Point * real
     Point operator* (const real c_value, const Point& c_pt);
     

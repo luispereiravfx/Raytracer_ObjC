@@ -21,7 +21,7 @@ namespace koios
     
     // ----------------------------------------------------------------------------
     /// \brief Default copy constructor
-    /// \param c_vec the Vector to copy
+    /// \param c_pt the Point to copy
     Point::Point(const Point& c_pt): m_x(c_pt.m_x), m_y(c_pt.m_y), m_z(c_pt.m_z) {}
     
     // ----------------------------------------------------------------------------
