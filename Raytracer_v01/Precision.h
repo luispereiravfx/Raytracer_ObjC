@@ -9,12 +9,16 @@
 #ifndef __PRECISION_H__
 #define __PRECISION_H__
 
+/// \namespace koios
+/// \brief The main lib namespace
 namespace koios
 {
     /**
      * Defines a real number precision. 
      * This will make changing the precision of the application simple
      */
+    /// \typedef float real
+    /// \brief Precision type for the real: Float or Double
     typedef float real;
     
 }
