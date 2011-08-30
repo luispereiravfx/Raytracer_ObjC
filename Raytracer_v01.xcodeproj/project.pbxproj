@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA21BE5C140D6FB900E74865 /* Ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA21BE5B140D6FB900E74865 /* Ray.cpp */; };
 		BA3BB6571409777C00C79917 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA3BB6561409777C00C79917 /* main.cpp */; };
 		BA3BB6591409777C00C79917 /* Raytracer_v01.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA3BB6581409777C00C79917 /* Raytracer_v01.1 */; };
+		BA3BB6611409785500C79917 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA3BB6601409785500C79917 /* Point.cpp */; };
+		BA3BB665140986B800C79917 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA3BB664140986B800C79917 /* Vector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +28,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA21BE5B140D6FB900E74865 /* Ray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ray.cpp; sourceTree = "<group>"; };
+		BA21BE5E140D6FC600E74865 /* Ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
 		BA3BB6521409777C00C79917 /* Raytracer_v01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Raytracer_v01; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3BB6561409777C00C79917 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BA3BB6581409777C00C79917 /* Raytracer_v01.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Raytracer_v01.1; sourceTree = "<group>"; };
+		BA3BB65F140977A800C79917 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		BA3BB6601409785500C79917 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		BA3BB66214097DBE00C79917 /* Precision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Precision.h; sourceTree = "<group>"; };
+		BA3BB663140986AE00C79917 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		BA3BB664140986B800C79917 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,13 @@
 			children = (
 				BA3BB6561409777C00C79917 /* main.cpp */,
 				BA3BB6581409777C00C79917 /* Raytracer_v01.1 */,
+				BA3BB65F140977A800C79917 /* Point.h */,
+				BA3BB6601409785500C79917 /* Point.cpp */,
+				BA3BB66214097DBE00C79917 /* Precision.h */,
+				BA3BB663140986AE00C79917 /* Vector.h */,
+				BA3BB664140986B800C79917 /* Vector.cpp */,
+				BA21BE5B140D6FB900E74865 /* Ray.cpp */,
+				BA21BE5E140D6FC600E74865 /* Ray.h */,
 			);
 			path = Raytracer_v01;
 			sourceTree = "<group>";
@@ -114,6 +131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA3BB6571409777C00C79917 /* main.cpp in Sources */,
+				BA3BB6611409785500C79917 /* Point.cpp in Sources */,
+				BA3BB665140986B800C79917 /* Vector.cpp in Sources */,
+				BA21BE5C140D6FB900E74865 /* Ray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +218,7 @@
 				BA3BB65E1409777C00C79917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
