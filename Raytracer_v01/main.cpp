@@ -8,11 +8,16 @@
 
 #include <iostream>
 
+#include "Point.h"
+#include "Vector.h"
+#include "Ray.h"
+
 int main (int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    
+    std::cout << "HELLO" << std::endl;
+    
     return 0;
 }
 
