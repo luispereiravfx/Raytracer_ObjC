@@ -1,5 +1,5 @@
 /// \file Point.h
-/// \brief Creates a Poinr. 
+/// \brief Creates a Point. 
 /// \author Luis Pereira
 /// \version 0.1
 /// \date 30/08/2011 Initial Version
